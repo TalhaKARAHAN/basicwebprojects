@@ -1,0 +1,48 @@
+body {
+    background-image: url(back.jpg);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f1f1f1;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #ccc;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.tarif-malzemeler, .tarif-adimlari {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tarif-malzemeler ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tarif-malzemeler ul li {
+    padding: 5px 0;
+}
+
+.tarif-adimlari ol {
+    padding: 0;
+}
+
+.tarif-adimlari ol li {
+    padding: 5px 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
