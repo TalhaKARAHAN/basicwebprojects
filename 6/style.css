@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ekran yüksekliğinin tamamını kaplamak için */
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Arama kutusu ve butonları dikey olarak düzenle */
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+#logo-container {
+    width: 120px;
+}
+
+#google-logo {
+    width: 100%;
+    height: auto;
+}
+
+#search-container {
+    display: flex;
+    flex-direction: column; /* Arama kutusu ve butonları dikey olarak düzenle */
+    align-items: center;
+    margin-top: 20px; /* Arama kutusu ve butonları logo'dan biraz aşağıya it */
+}
+
+#search-input {
+    width: 480px;
+    height: 36px;
+    padding: 8px;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 8px; /* Arama kutusundan sonra biraz boşluk bırak */
+}
+
+#search-buttons {
+    display: flex;
+}
+
+#search-btn,
+#lucky-btn {
+    background-color: #f8f8f8;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    color: #5f6368;
+    cursor: pointer;
+    margin-right: 4px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.1);
+}
